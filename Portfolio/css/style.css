@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+body {
+    background-color: rgb(5, 5, 78);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(16, 16, 78)
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(228, 225, 68);
+    font-size: 1.03rem;
+
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    margin-top: 120px;
+    margin-bottom: 5px;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.text1 {
+    color: rgb(168, 68, 168);
+}
+
+.text2 {
+    color: rgb(248, 65, 202);
+}
+
+.leftSection .button {
+    padding: 20px 0;
+}
+
+.leftSection .resume {
+    padding: 12px;
+    background-color: rgb(5, 5, 78);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    size: 20px;
+}
+
+.leftSection .resume:hover {
+    color: rgb(94, 94, 196);
+
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+#element {
+    color: rgb(155, 51, 155);
+}
+
+h1 {
+    font-size: 1.9rem;
+    max-width: 80vw;
+    margin: auto;
+    height: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 48, 48);
+    text-underline-offset: 6px;
+}
+
+p {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 6px;
+    color: rgb(117, 12, 214);
+}
+
+main hr {
+    border: 0;
+    background-color: white;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    padding-left: 10%;
+}
+
+.secondSection>div {
+    width: 40%;
+}
+
+.left1Section img {
+    width: 40%;
+
+}
+
+h2 {
+    font-size: 1.9rem;
+    max-width: 80vw;
+    margin: auto;
+    height: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 48, 48);
+    text-underline-offset: 6px
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 30vh;
+}
+
+.thirdSection .box {
+    background-color: white;
+    width: 70vw;
+    height: 2px;
+    margin: 56px 40px;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+
+}
+
+.vertical-title {
+    position: relative;
+    top: 28px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 30px;
+    color: rgb(43, 183, 226);
+    width: 150px;
+    font-size: 13px;
+
+}
+
+.img1 {
+    position: relative;
+    width: 40px;
+    top: -45px;
+    left: -20px;
+}
+
+.img2 {
+    position: relative;
+    width: 40px;
+    top: -45px;
+    left: -20px;
+}
+
+.img3 {
+    position: relative;
+    width: 40px;
+    top: -40px;
+    left: -20px;
+}
+
+h3 {
+    font-size: 1.9rem;
+    max-width: 80vw;
+    margin: auto;
+    height: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 48, 48);
+    text-underline-offset: 6px;
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 40vh;
+}
+
+.text3 {
+    font-size: 1.5rem;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+
+h4 {
+    font-size: 1.9rem;
+    max-width: 80vw;
+    margin: auto;
+    height: 5%;
+    text-decoration: underline;
+    text-decoration-color: rgb(199, 48, 48);
+    text-underline-offset: 6px;
+}
+
+footer {
+    background-color: rgb(17, 16, 16);
+    height: 55px;
+}
+
+footer .footer-flex {
+    text-align: center;
+}
+
+footer .footer-reserved {
+    text-align: center;
+    color: gray;
+}
+
+.fifthSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 35vh;
+}
+
+.fifthSection {
+    padding-top: 2rem;
+    padding-left: 20%;
+
+}
+
+.ph {
+    color: red;
+}
+
+.eml {
+    color: red;
+}
+
+.linkd {
+    color: red;
+}
+
+:read-only .phone img {
+    width: 3%;
+    padding-right: 1%;
+}
+
+.email img {
+    width: 3%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.insta img {
+    width: 3%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.linkedin img {
+    width: 3%;
+    padding-right: 1%;
+    padding-top: 1%;
+}
+
+.insta a {
+    text-decoration: none;
+    color: white;
+}
+
+.email a {
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.footer-reserved a {
+    text-decoration: none;
+    color: gray;
+}
